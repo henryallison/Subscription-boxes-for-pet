@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Subscription Boxes</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <script src="js/script.js" defer></script>
+    <link rel="icon" href="images/logo.png" type="image/png">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="PetBox Logo">
+            <h1>PetBox Haven</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="dog-boxes.html">Dog Boxes</a></li>
+                <li><a href="cat-boxes.html">Cat Boxes</a></li>
+                <li><a href="bird-boxes.html">Bird Boxes</a></li>
+                <li><a href="reptile-boxes.html">Reptile Boxes</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h2>Unbox Happiness for Your Pets</h2>
+        <p>Discover curated treats, toys, and more for your furry & feathered friends.</p>
+        <button onclick="scrollToSection('categories')">Explore Now</button>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories">
+        <div id="dog-boxes" class="category-section">
+            <h2>Dog Subscription Boxes</h2>
+            <img src="images/dog-box.jpeg" alt="Dog Box">
+            <p>Specially curated treats and toys for your beloved dogs.</p>
+        </div>
+        
+        <div id="cat-boxes" class="category-section">
+            <h2>Cat Subscription Boxes</h2>
+            <img src="images/cat-box.jpeg" alt="Cat Box">
+            <p>Purr-fect boxes with goodies your cat will love!</p>
+        </div>
+        
+        <div id="bird-boxes" class="category-section">
+            <h2>Bird Subscription Boxes</h2>
+            <img src="images/bird-box.jpg" alt="Bird Box">
+            <p>Feathered friends deserve surprises too!</p>
+        </div>
+        
+        <div id="reptile-boxes" class="category-section">
+            <h2>Reptile Subscription Boxes</h2>
+            <img src="images/reptile-box.jpg" alt="Reptile Box">
+            <p>Unique treats and accessories for your scaly companions.</p>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are passionate about pets and bringing joy to pet owners through our subscription boxes. 
+        Our mission is to provide curated, high-quality treats and toys for your beloved companions.</p>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you! Whether you have a question about our products, need assistance with your order, or just want to share some feedback, our team is here to help.</p>
+        <div class="contact-info">
+            <p><strong>Email:</strong> hyallison5050@gmail.com</p>
+            <p><strong>Phone:</strong> +25079087865</p>
+            <p><strong>Address:</strong> INES-Ruhengeri
+                P.O. Box 155, Ruhengeri<br>
+                Musanze District, Northern Province<br>
+                Rwanda</p>
+        </div>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 PetBox Haven. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
