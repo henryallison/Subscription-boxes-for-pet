@@ -104,7 +104,8 @@ footer {
 header {
     background-color: #FFCB9A;
     text-align: center;
-    padding: 0px;
+    padding: 15px;
+    margin:auto;
 
 }
 
